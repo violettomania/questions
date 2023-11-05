@@ -7,8 +7,8 @@ export default function App() {
     <main>
       <section className='container'>
         <h1>Questions</h1>
-        {questions.map((question) => (
-          <Question key={question.id} {...question} />
+        {questions.map(({ id, ...rest }) => (
+          <Question key={id} {...rest} />
         ))}
       </section>
     </main>

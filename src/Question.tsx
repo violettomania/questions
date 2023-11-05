@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 
 interface Props {
-  id: number;
   title: string;
   info: string;
 }
