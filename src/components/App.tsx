@@ -1,6 +1,6 @@
 import Question from './Question';
 
-import questions from './data';
+import questions from '../data';
 
 export default function App() {
   return (
